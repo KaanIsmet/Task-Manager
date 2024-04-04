@@ -1,11 +1,13 @@
 package main;
 
+import java.util.Scanner;
+
 public class Main {
 
 	public static void main(String[] args) {
 		print();
-
-		
+		int option = input();
+		System.out.println("You've chosen" + option);
 
 	}
 
@@ -20,5 +22,15 @@ public class Main {
 				   "5. Delete Tasks\n" +
 				   "6. Checkmark Tasks");
 	}
+
+	public static int input() {
+
+		Scanner input = new Scanner(System.in);
+		int result = input.nextInt();
+		return result;
+	}
+
+
+
 
 }
