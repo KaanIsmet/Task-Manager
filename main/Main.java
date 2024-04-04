@@ -7,7 +7,7 @@ public class Main {
 	public static void main(String[] args) {
 		print();
 		int option = input();
-		System.out.println("You've chosen" + option);
+		System.out.println("You've chosen " + option);
 
 	}
 
