@@ -1,8 +1,8 @@
 package main;
 
 import java.util.Scanner;
-import taskManager.TaskManager;
-import timeStamp.TimeStamp;
+import taskManager.*;
+
 
 public class Main {
 
@@ -49,7 +49,7 @@ public class Main {
 				   "3. Modify Tasks\n" +
 				   "4. Change Task Priority\n" +
 				   "5. Delete Tasks\n" +
-				   "6. Checkmark Tasks" +
+				   "6. Checkmark Tasks\n" +
 				   "7. Exit the program");
 	}
 
@@ -57,6 +57,7 @@ public class Main {
 
 		Scanner input = new Scanner(System.in);
 		int result = input.nextInt();
+		input.close();
 		return result;
 	}
 

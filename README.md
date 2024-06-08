@@ -10,15 +10,18 @@ The Java Task Manager is a console-based application that helps manage your dail
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
+To run the application, simply the shell scripts on your command line.
 
-### Prerequisites
-
-What you need to run the application:
-
-```console
-  cd/path/to/your/javafiles
-  javac *.java
 ```
+./build.sh
+./run.sh
+```
+
+
+
+
+
+
+
 
 

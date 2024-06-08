@@ -4,7 +4,6 @@ import java.io.File;
 
 public class TaskManager {
 
-	Task[] tasks;
 	String fileName;
 	File file;
 	
