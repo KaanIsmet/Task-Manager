@@ -36,8 +36,6 @@ public class Task {
 		this.taskCompleted = taskCompleted;
 	}	
 
-
-
 	public String getTaskName() {
 		return taskName;
 	}
@@ -50,16 +48,16 @@ public class Task {
 		return priority;
 	}
 
-	public void setCompleted() {
-		taskCompleted = true;
-	}
-
 	public void setPriority(int priority) {
 		this.priority = priority;
 	}
 
 	public void setTaskName(String taskName) {
 		this.taskName = taskName;
+	}
+
+	public void setTaskCompleted(Boolean taskCompleted) {
+		this.taskCompleted = taskCompleted;
 	}
 }
 		

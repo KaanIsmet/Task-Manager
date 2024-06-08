@@ -4,6 +4,16 @@ import java.io.File;
 
 public class TaskManager {
 
+	String fileName;
+	File file;
+	
+	public TaskManager() {
+		
+
+	}
+
+
+
 	public void readTasks() {
 
 	}
